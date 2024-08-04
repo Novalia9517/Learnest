@@ -1,0 +1,113 @@
+body {
+  padding-top: 56px; /* Adjust the padding for fixed navbar */
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+.navbar {
+  backdrop-filter: blur(2px) !important;
+  /* background-color: rgba(83, 71, 253, 0.8) !important; */
+  border-radius: 8px;
+  box-shadow: 0px 6px 10px 0px rgba(88, 137, 199, 0.5),
+    inset 0px -6px 8px 0px rgba(88, 137, 199, 0.6),
+    inset 0px 4px 14px 0px rgb(255, 255, 255) !important;
+}
+header h1,
+header p {
+  z-index: 2;
+  position: relative;
+}
+
+header .btn {
+  z-index: 2;
+  position: relative;
+}
+
+header h1,
+header p {
+  z-index: 2;
+  position: relative;
+}
+
+.img-fluid {
+  transition: transform 0.3s;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 35px;
+  box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5),
+    inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6),
+    inset 0px 11px 28px 0px rgb(255, 255, 255) !important;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card i {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.profile-img img {
+  transition: transform 0.3s;
+}
+
+.profile-img img:hover {
+  transform: scale(1.05);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card i {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.text-primary {
+  color: rgba(88, 137, 199, 1) !important;
+}
+.header-text {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(88, 137, 199, 0.5),
+    0 0 25px rgba(88, 137, 199, 0.6), 0 0 5px rgb(255, 255, 255) !important;
+}
+.header-text-secondary {
+  color: rgb(219, 225, 246);
+  font-weight: 700;
+  text-shadow: 3px 3px 6px rgba(19, 79, 157, 0.6),
+    0 0 40px rgba(20, 44, 75, 0.9), 0 0 15px rgb(255, 255, 255) !important;
+}
+.btn-primary {
+  backdrop-filter: blur(2px) !important;
+  /* background-color: rgba(255, 255, 255, 0.6) !important; */
+  border-radius: 23px;
+  box-shadow: 0px 35px 68px 0px rgba(73, 135, 212, 0.5),
+    inset 0px -6px 16px 0px rgba(73, 135, 212, 0.6),
+    inset 0px 11px 28px 0px rgb(255, 255, 255) !important;
+}
+.logo-shadow {
+  font-weight: 700 !important;
+  color: rgb(106, 163, 213) !important;
+  text-shadow: 1px 1px 2px rgba(88, 137, 199, 0.5),
+    0 0 25px rgba(88, 137, 199, 0.6), 0 0 5px rgb(255, 255, 255) !important;
+}
